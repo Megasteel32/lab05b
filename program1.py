@@ -19,6 +19,8 @@ counter = 0
 while user_amt >= 0:
     user_amt = int(input("Enter in data! "))
     if user_amt >= 0:
+        if counter == 0:
+            running_min = user_amt
         counter += 1
         stored_amt += user_amt
         if user_amt > running_max:
