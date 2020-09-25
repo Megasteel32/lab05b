@@ -55,3 +55,5 @@ if workyworky == 1:
     plt.xlabel("x axis, 1s")
     plt.ylabel("y axis, 0.1m")
     plt.show()
+
+# Mars is really not happening. Sorry Elon Musk.
