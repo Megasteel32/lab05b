@@ -5,6 +5,27 @@
 # Name:        Luca Maddaleni, 330001030
 # Section:     273
 # Assignment:  Angery Bird
+# Date:        9/24/2020
+
+from math import *
+# Defining variables
+wall_dist = 202.4
+wall_height = 0
+angle = 0
+velocity = 45
+gravity = -9.8
+
+# Calculating height with 45 degrees
+angle = 0.1
+wall_height = wall_dist*tan(radians(angle)) - (gravity * wall_dist**2) / (2 * velocity**2 * cos(radians(angle))**2)
+print(wall_height)
+# By submitting this assignment, I agree to the following:
+#  "Aggies do not lie, cheat, or steal, or tolerate those who do"
+#  "I have not given or received any unauthorized aid on this assignment"
+#
+# Name:        Luca Maddaleni, 330001030
+# Section:     273
+# Assignment:  Angery Bird
 # Date:        9/25/2020
 
 from math import cos, sin, radians, tan
